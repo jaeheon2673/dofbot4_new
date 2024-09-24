@@ -1,0 +1,7 @@
+train: ./data/train/images
+val: ./data/val/images
+test: ./data/test/images
+
+nc: 3  # 클래스 수
+names: ['grasping_cup', 'flipping_cup', 'flipped_cup']  # 클래스 이름
+kpt_shape: [7, 3]  # COCO 키포인트 형식(각 키포인트는 x, y, visibility)
